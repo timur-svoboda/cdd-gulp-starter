@@ -7,7 +7,10 @@ export default function server(cb) {
     server: "dev"
   });
 
-  bs.watch("dev/**/*").on("change", bs.reload)
+  bs.watch(["dev/**/*", "!dev/**/*.css", "!dev/**/*.css.map"]).on("change", bs.reload)
+  bs.watch("dev/**/*.css").on("change", function() {
+    bs.reload("*.css");
+  });
 
   cb();
 }
