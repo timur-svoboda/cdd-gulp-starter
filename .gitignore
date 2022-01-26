@@ -1,3 +1,4 @@
 dev
 !gulp/dev
 node_modules
+.vscode
