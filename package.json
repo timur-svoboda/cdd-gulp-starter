@@ -1,6 +1,6 @@
 {
   "name": "cdd-gulp-starter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Gulp starter for Component Driven Development",
   "type": "module",
   "private": true,
