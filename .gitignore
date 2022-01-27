@@ -1,5 +1,6 @@
 dev
 !gulp/dev
 dist
+.publish
 node_modules
 .vscode
