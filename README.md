@@ -7,7 +7,8 @@ Gulp starter for Component Driven Development.
 1. Install [NodeJS](https://nodejs.org/en/).
 2. Install Gulp CLI globally: `npm install --global gulp-cli`.
 3. Install all local dependencies: `npm install`.
-4. Run `gulp dev` for starting the development environment.
+4. Run `gulp dev` to start the development environment.
+5. Run `gulp prod` to build the project for production.
 
 Run commands in the **root** folder.
 
