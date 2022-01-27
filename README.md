@@ -9,6 +9,7 @@ Gulp starter for Component Driven Development.
 3. Install all local dependencies: `npm install`.
 4. Run `gulp dev` to start the development environment.
 5. Run `gulp prod` to build the project for production.
+6. Run `gulp publish` to build the project and publish it on GitHub Pages.
 
 Run commands in the **root** folder.
 
