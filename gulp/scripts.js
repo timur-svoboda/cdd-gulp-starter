@@ -14,7 +14,20 @@ export default function scripts() {
   .pipe(named())
   .pipe(webpackStream({
     mode,
-    devtool: "source-map"
+    devtool: "source-map",
+    module: {
+      rules: [
+        {
+          test: /\.js$/,
+          use: {
+            loader: 'babel-loader',
+            options: {
+              presets: ['@babel/preset-env']
+            }
+          }
+        }
+      ]
+    }
   }))
   .pipe(gulp.dest(dest));
 }
