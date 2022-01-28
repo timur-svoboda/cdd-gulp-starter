@@ -1,6 +1,6 @@
-import devTask from "./gulp/dev/dev.js";
-import prodTask from "./gulp/prod/prod.js";
-import publishTask from "./gulp/publish/publish.js"
+import devTask from "./gulp/dev.js";
+import prodTask from "./gulp/prod.js";
+import publishTask from "./gulp/publish.js"
 
 export default devTask;
 
