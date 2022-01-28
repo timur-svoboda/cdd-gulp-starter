@@ -4,6 +4,11 @@
   "description": "Gulp starter for Component Driven Development",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp prod --production",
+    "publish": "gulp publish --produciton"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/timur-svoboda/cdd-gulp-starter.git"
